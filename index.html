@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WILD INSTINCT || FORM</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-blur">
+            <h1 id="title">WILD INSTINCT</h1>
+            <p id="description">"This one is for those who want to get started in the survival world".</p>
+        </div>
+    </header>
+    <main>
+        <form id="survey-form">
+            <div class="form-section">
+                <label id="name-label" for="name">Name</label>
+                <input id="name" type="text" placeholder="Your Name" required>
+            </div>
+            <div class="form-section">
+                <label id="email-label" for="email">Email</label>
+                <input id="email" type="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-section">
+                <label id="number-label" for="number">Age</label>
+                <input id="number" type="number" placeholder="Your Age" min="15" max="100" required>
+            </div>
+            <div class="form-section">
+                <label id="password-label" for="password">Password</label>
+                <input id="password" type="password" placeholder="Your Password" minlength="5" maxlength="12" required>
+            </div>
+            <div class="form-line"></div>
+            <div class="form-section">
+                <p>Useful Tool</p>
+                <select name="tool" id="dropdown" required>
+                    <option value="">Select One</option>
+                    <option value="knife">Survival Knife</option>
+                    <option value="axe">Hand Axe</option>
+                    <option value="filter">Portable Water Filter</option>
+                    <option value="paracord">Paracord</option>
+                    <option value="aid">First Aid Kit</option>
+                    <option value="other">Another One</option>
+                </select>
+            </div>
+            <div class="form-section radio">
+                <p>Ready for the Wild?</p>
+                <label><input type="radio" name="radio-option" value="definitely"> Definitely</label>
+                <label><input type="radio" name="radio-option" value="maybe"> Maybe</label>
+                <label><input type="radio" name="radio-option" value="not-sure"> Not sure</label>
+            </div>
+            <div class="form-line"></div>
+            <div class="form-section landscapes">
+                <p>Select the Landscapes you Like the Most</p>
+                <label><input type="checkbox" name="option" value="mountains"> Mountains</label>
+                <label><input type="checkbox" name="option" value="beaches"> Beaches</label>
+                <label><input type="checkbox" name="option" value="forests"> Forests</label>
+                <label><input type="checkbox" name="option" value="deserts"> Deserts</label>
+                <label><input type="checkbox" name="option" value="lakes"> Lakes</label>
+                <label><input type="checkbox" name="option" value="canyons"> Canyons</label>
+                <label><input type="checkbox" name="option" value="meadows"> Meadows</label>
+                <label><input type="checkbox" name="option" value="glaciers"> Glaciers</label>
+                <label><input type="checkbox" name="option" value="savannas"> Savannas</label>
+                <label><input type="checkbox" name="option" value="islands"> Islands</label>
+            </div>
+            <div class="form-line"></div>
+            <div class="form-section">
+                <textarea name="comment" id="comments" placeholder="YOUR SUGGESTION"></textarea>
+            </div>
+            <div class="form-section">
+                <button type="submit" id="submit">Submit</button>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>

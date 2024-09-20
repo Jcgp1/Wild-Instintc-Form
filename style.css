@@ -1,0 +1,195 @@
+/*  "Heebo" */
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100&display=swap");
+/*  "Bebas Neue" */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+/* General */
+html {
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(https://i.pinimg.com/originals/bc/cf/d8/bccfd853a8244bd0df685aa526052c7c.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Header */
+header {
+  display: flex;
+  margin: 100px 0 30px 0;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  text-align: center;
+  border-radius: 3px;
+}
+.header-blur {
+  padding: 10px 20px;
+  backdrop-filter: blur(10px);
+}
+#title {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 50px;
+  letter-spacing: 7px;
+  border-radius: 5px;
+  font-family: "Bebas Neue";
+}
+#description {
+  margin: 0;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  font-family: "Heebo";
+}
+/* Main*/
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 45px;
+  justify-content: center;
+}
+form {
+  width: 690px;
+  color: #fff;
+  font-weight: 900;
+  padding: 0 20px;
+  border-radius: 3px;
+  font-family: "Heebo";
+  backdrop-filter: blur(10px);
+  background-color: rgba(55, 175, 101, 0.3);
+}
+.form-line {
+  height: 1px;
+  width: 100%;
+  margin: 50px 0;
+  background-color: #fff;
+}
+.form-section {
+  margin: 15px 0;
+  display: flex;
+  flex-direction: column;
+}
+form label,
+form p {
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin: 30px 0 5px 10px;
+  text-transform: uppercase;
+}
+.landscapes label {
+  margin: 0;
+  display: flex;
+  padding: 5px 0;
+  cursor: pointer;
+  letter-spacing: 1px;
+  align-items: center;
+}
+.landscapes input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  outline: none;
+  margin: 0 10px;
+  cursor: pointer;
+  appearance: none;
+  border-radius: 2px;
+  border: 2px solid #fff;
+  background-color: rgba(0, 0, 0, 0);
+}
+input[type="checkbox"]:checked {
+  background-color: #fff;
+}
+.radio label {
+  margin: 0;
+  display: flex;
+  padding: 5px 0;
+  cursor: pointer;
+  letter-spacing: 1px;
+  align-items: center;
+}
+.radio input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  outline: none;
+  margin: 0 10px;
+  cursor: pointer;
+  appearance: none;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background-color: rgba(0, 0, 0, 0);
+}
+input[type="radio"]:checked {
+  background-color: #fff;
+}
+input,
+select {
+  margin: 0 10px;
+  color: #fff;
+  height: 25px;
+  font-weight: 900;
+  padding-left: 10px;
+  border-radius: 2px;
+  letter-spacing: 2px;
+  font-family: "Heebo";
+  margin-bottom: 5px;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #fff;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-family: "Heebo";
+}
+input:focus,
+select:focus {
+  outline: none;
+  font-weight: 900;
+  padding-left: 10px;
+  letter-spacing: 2px;
+  font-family: "Heebo";
+}
+select option {
+  font-weight: 900;
+  background-color: rgba(55, 175, 101, 0.8);
+}
+textarea {
+  color: #fff;
+  height: 170px;
+  margin: 0 10px;
+  resize: vertical;
+  font-weight: 900;
+  border-radius: 2px;
+  letter-spacing: 2px;
+  font-family: "Heebo";
+  margin-bottom: 5px;
+  padding: 10px 0 0 10px;
+  border: 1px solid #fff;
+  background-color: rgba(142, 173, 82, 0);
+}
+button {
+  color: #fff;
+  height: 50px;
+  border: none;
+  font-size: 20px;
+  margin: 0 40px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background-color: rgba(55, 175, 101, 0.5);
+}
+button:hover {
+  cursor: pointer;
+  background-color: #37af65;
+}
